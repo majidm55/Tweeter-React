@@ -1,0 +1,46 @@
+/*NAV BAR STYLES*/
+#nav-bar {
+  background-color: #24917d;
+  position: fixed;
+  top:0;
+  height: 80px;
+  width: 100%;
+  color: #e8fdff;
+  padding:0 2em 0 2em ;
+  z-index : 999999;
+  font-size: 2em;
+}
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+#nav-bar .header {
+  float : left;
+  position: relative;
+  top: 30px;
+  padding-left: 10px;
+  /*font-weight: bold;*/
+}
+
+#nav-bar button {
+  float: right;
+  position: relative;
+  left: -10%;
+  color: #00a087;
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#nav-bar button:hover {
+  opacity: .5;
+}
+#nav-bar i {
+  padding: 10px;
+}
+
+/*NAVBAR STYLES END*/

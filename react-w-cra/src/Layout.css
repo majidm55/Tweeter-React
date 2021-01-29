@@ -1,0 +1,176 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+/*
+ * Global layout stuff
+ */
+
+
+body {
+  margin: 0;
+  color: #244751;
+  background-color: #eee;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*//main conatiner styles*/
+.container {
+  width: 50%;
+  margin: 6% auto;
+  background-color: white;
+  position: relative;
+  top: 0;
+}
+
+/*//compose tweet styles start*/
+
+.new-tweet {
+  margin: 10% auto;
+  background-color: gainsboro;
+  border-radius: 10px;
+  width: 80%;
+  position: relative;
+  top: 40px;
+}
+
+.new-tweet h2 {
+  padding-left: 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.new-tweet .line {
+  width: 95%;
+  margin: 0 auto;
+  border: 1.2px solid black;
+  color: black;
+  position: relative;
+  top: -20px;
+}
+
+.new-tweet form {
+  padding: 7px;
+}
+
+.new-tweet textarea {
+  width: 100%;
+  height: 100%;
+  padding: 5px 0 10px 5px;
+}
+
+.new-tweet span {
+  float: right;
+  display: inline;
+  margin-top: 5px;
+}
+
+.new-tweet p {
+color: red;
+display: inline;
+}
+
+/*Compose tweet styles end here*/
+
+
+
+/*//New Tweet styles start here*/
+
+.tweet-container {
+  margin-top: 10%;
+}
+
+.tweet-box {
+  margin-top: 10%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.tweet{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    opacity: .5;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.tweet:hover {
+  opacity: 1;
+}
+.tweet:hover .icons {
+  display: block;
+}
+
+.tweet header {
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+article img {
+  width: 15%;
+  border-radius: 50px;
+  float: left;
+}
+
+.tweet h3 {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.tweet h6 {
+  float: right;
+  position: relative;
+  left: -5%;
+  font-size: .8em;
+}
+
+article content {
+  background-color: white;
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+article content p {
+  padding: 5px;
+  text-align: left;
+  word-break: break-all;
+}
+
+/*//New Tweet Styles end here///*/
+
+/*Footer style starts here*/
+
+.tweet footer {
+  border-top: 1px solid lightgrey;
+  margin: 0 10px;
+}
+
+.tweet .icons {
+  float: right;
+  position: relative;
+  top: -38px;
+  display: none;
+}
+
+footer .icons i {
+  padding: 5px;
+}
+
+/*Footer styles end here*/
+
+/*All Styles end here*/
