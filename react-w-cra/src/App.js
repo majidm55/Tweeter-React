@@ -43,13 +43,13 @@ function App() {
     />
   })
 
-  const addNewTweet = () => {
+  const addNewTweet = (text) => {
     const newTweet = {
       
         name:"Ann",
         handle:"@Smhadei",
-        profile_image:"https://cdn.thearthunters.com/wp-content/uploads/old/201206193/13.jpg",
-        text:"What do you think about Grilled Cheese?",
+        profile_image:"https://cdn.thearthunters.com/wp-content/uploads/old/201206193/11.jpg",
+        text,
         date:"0 days ago"
       
     }
@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="App" >
       <Navigation />
-      <TweetForm />
+      <TweetForm  addNewTweet ={addNewTweet}/>
       <section className="tweets">
         {tweets}
       </section>

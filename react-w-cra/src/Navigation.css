@@ -26,7 +26,7 @@
 }
 
 #nav-bar button {
-  float: right;
+  /* float: right; */
   position: relative;
   left: -10%;
   color: #00a087;
@@ -34,13 +34,14 @@
   padding: 8px;
   border: 2px solid black;
   border-radius: 10px;
+  text-align: center;
 }
 
 #nav-bar button:hover {
   opacity: .5;
 }
 #nav-bar i {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 /*NAVBAR STYLES END*/
